@@ -1,0 +1,11 @@
+Package: DCA
+Type: Package
+Title: Differential Connectivity Analysis: Testing Differences in Structures of High-Dimensional Networks
+Version: 0.0.1
+Date: 2017-4-8
+Author: Sen Zhao
+Maintainer: Sen Zhao <sen-zhao@sen-zhao.com>
+Description: Implementation of the methodology for differential connectivity analysis, which examines whether multiple high-dimensional networks have the same set of edges. Controlling false positive rate, DCA is able to identify specific nodes or edges that show differential connectivity.
+License: GPL-3
+Depends: MASS, glmnet, Grace, hdi, SKAT
+LazyData: TRUE
